@@ -1,0 +1,116 @@
+[
+    {
+        "pregunta": "¿En qué año comenzó la Primera Guerra Mundial?",
+        "alternativas": ["1914", "1918", "1939", "1945"],
+        "respuesta": "1914",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Quién fue el primer emperador de Roma?",
+        "alternativas": ["Julio César", "Nerón", "Augusto", "Trajano"],
+        "respuesta": "Augusto",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Qué civilización construyó las pirámides de Egipto?",
+        "alternativas": ["Romanos", "Griegos", "Egipcios", "Mayas"],
+        "respuesta": "Egipcios",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Quién descubrió América en 1492?",
+        "alternativas": ["Fernando de Magallanes", "Cristóbal Colón", "Hernán Cortés", "Marco Polo"],
+        "respuesta": "Cristóbal Colón",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿En qué año terminó la Segunda Guerra Mundial?",
+        "alternativas": ["1939", "1941", "1945", "1950"],
+        "respuesta": "1945",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Cuál fue la principal causa de la Revolución Francesa?",
+        "alternativas": ["Crisis económica", "Invasión extranjera", "Guerra civil", "Conflicto religioso"],
+        "respuesta": "Crisis económica",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué imperio gobernó la mayor parte de América Latina antes de la independencia?",
+        "alternativas": ["Imperio Británico", "Imperio Español", "Imperio Portugués", "Imperio Otomano"],
+        "respuesta": "Imperio Español",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Quién fue el líder de la Revolución Rusa de 1917?",
+        "alternativas": ["Josef Stalin", "Vladimir Lenin", "León Trotsky", "Nicolás II"],
+        "respuesta": "Vladimir Lenin",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué evento marcó el inicio de la Edad Media?",
+        "alternativas": ["La caída del Imperio Romano", "La Revolución Francesa", "El Renacimiento", "El descubrimiento de América"],
+        "respuesta": "La caída del Imperio Romano",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué tratado puso fin a la Primera Guerra Mundial?",
+        "alternativas": ["Tratado de Versalles", "Tratado de Tordesillas", "Paz de Westfalia", "Tratado de Utrecht"],
+        "respuesta": "Tratado de Versalles",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Quién fue el primer presidente de los Estados Unidos?",
+        "alternativas": ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "John Adams"],
+        "respuesta": "George Washington",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué país fue responsable del ataque a Pearl Harbor en 1941?",
+        "alternativas": ["Alemania", "Italia", "Japón", "Reino Unido"],
+        "respuesta": "Japón",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué imperio fue conocido por su uso extensivo de la carretera real?",
+        "alternativas": ["Imperio Romano", "Imperio Persa", "Imperio Otomano", "Imperio Mongol"],
+        "respuesta": "Imperio Persa",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuál fue el objetivo principal de las Cruzadas?",
+        "alternativas": ["Conquistar nuevas tierras", "Expandir el comercio", "Recuperar Tierra Santa", "Convertir a los musulmanes al cristianismo"],
+        "respuesta": "Recuperar Tierra Santa",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué líder militar fue derrotado en la Batalla de Waterloo?",
+        "alternativas": ["Julius Caesar", "Napoleón Bonaparte", "Alejandro Magno", "Carlos V"],
+        "respuesta": "Napoleón Bonaparte",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿En qué año cayó Constantinopla en manos del Imperio Otomano?",
+        "alternativas": ["1299", "1453", "1517", "1683"],
+        "respuesta": "1453",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué documento estableció la independencia de los Estados Unidos en 1776?",
+        "alternativas": ["Constitución de EE.UU.", "Declaración de Independencia", "Carta Magna", "Tratado de París"],
+        "respuesta": "Declaración de Independencia",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Quién fue el último zar de Rusia?",
+        "alternativas": ["Pedro el Grande", "Iván el Terrible", "Nicolás II", "Alejandro III"],
+        "respuesta": "Nicolás II",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuál fue el conflicto que llevó a la independencia de las colonias americanas del Reino Unido?",
+        "alternativas": ["Guerra de Secesión", "Guerra de los Siete Años", "Guerra de Independencia de EE.UU.", "Guerra de los 100 años"],
+        "respuesta": "Guerra de Independencia de EE.UU.",
+        "dificultad": "difícil"
+    }
+]

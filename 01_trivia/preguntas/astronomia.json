@@ -1,0 +1,122 @@
+[
+    {
+        "pregunta": "¿Cuál es el planeta más grande del sistema solar?",
+        "alternativas": ["Tierra", "Marte", "Júpiter", "Saturno"],
+        "respuesta": "Júpiter",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Qué astro es el centro de nuestro sistema solar?",
+        "alternativas": ["La Luna", "El Sol", "Júpiter", "Venus"],
+        "respuesta": "El Sol",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Cuántos planetas hay en el sistema solar?",
+        "alternativas": ["7", "8", "9", "10"],
+        "respuesta": "8",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Qué planeta es conocido como el planeta rojo?",
+        "alternativas": ["Mercurio", "Marte", "Saturno", "Urano"],
+        "respuesta": "Marte",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Cuál es el satélite natural de la Tierra?",
+        "alternativas": ["Luna", "Io", "Fobos", "Europa"],
+        "respuesta": "Luna",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Cuál es el planeta más cercano al Sol?",
+        "alternativas": ["Venus", "Mercurio", "Tierra", "Marte"],
+        "respuesta": "Mercurio",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué planeta tiene los anillos más prominentes?",
+        "alternativas": ["Neptuno", "Júpiter", "Saturno", "Urano"],
+        "respuesta": "Saturno",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué galaxia contiene nuestro sistema solar?",
+        "alternativas": ["Andrómeda", "Vía Láctea", "Galaxia del Triángulo", "Centauro A"],
+        "respuesta": "Vía Láctea",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué planeta tiene la mayor cantidad de lunas?",
+        "alternativas": ["Tierra", "Júpiter", "Saturno", "Urano"],
+        "respuesta": "Saturno",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué fenómeno causa las auroras boreales?",
+        "alternativas": ["Rayos cósmicos", "Viento solar", "Lluvias de meteoros", "Eclipses solares"],
+        "respuesta": "Viento solar",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Cuál es la unidad de medida utilizada para calcular distancias en el espacio?",
+        "alternativas": ["Kilómetros", "Años luz", "Metros", "Millas"],
+        "respuesta": "Años luz",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué teoría explica el origen del universo?",
+        "alternativas": ["Teoría del estado estacionario", "Teoría del Big Bang", "Teoría del colapso gravitacional", "Teoría del universo oscilante"],
+        "respuesta": "Teoría del Big Bang",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué tipo de estrella es el Sol?",
+        "alternativas": ["Gigante roja", "Enana amarilla", "Enana blanca", "Supergigante azul"],
+        "respuesta": "Enana amarilla",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué misión espacial llevó al primer ser humano a la Luna?",
+        "alternativas": ["Apolo 11", "Sputnik 1", "Voyager 1", "Gemini 4"],
+        "respuesta": "Apolo 11",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cómo se llama el mayor volcán del sistema solar?",
+        "alternativas": ["Monte Everest", "Monte Olimpo", "Monte Elysium", "Monte Ascraeus"],
+        "respuesta": "Monte Olimpo",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuál es el exoplaneta más cercano a la Tierra?",
+        "alternativas": ["Kepler-22b", "Proxima b", "Gliese 581g", "HD 209458 b"],
+        "respuesta": "Proxima b",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cómo se llama la sonda espacial que ha llegado más lejos en el espacio?",
+        "alternativas": ["Voyager 1", "Pioneer 10", "New Horizons", "Cassini"],
+        "respuesta": "Voyager 1",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué nombre recibe el punto más alejado del Sol en la órbita de un planeta?",
+        "alternativas": ["Perihelio", "Afelio", "Equinoccio", "Solsticio"],
+        "respuesta": "Afelio",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué elemento es el más abundante en la composición de las estrellas?",
+        "alternativas": ["Oxígeno", "Hidrógeno", "Carbono", "Helio"],
+        "respuesta": "Hidrógeno",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué es un agujero negro?",
+        "alternativas": ["Una estrella en formación", "Una región con gravedad extrema", "Un tipo de galaxia", "Un cometa gigante"],
+        "respuesta": "Una región con gravedad extrema",
+        "dificultad": "difícil"
+    }
+]

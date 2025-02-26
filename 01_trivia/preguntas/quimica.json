@@ -1,0 +1,122 @@
+[
+    {
+        "pregunta": "¿Cuál es el elemento químico más abundante en el universo?",
+        "alternativas": ["Oxígeno", "Carbono", "Hidrógeno", "Helio"],
+        "respuesta": "Hidrógeno",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Qué tipo de enlace mantiene unidos los átomos en una molécula de agua?",
+        "alternativas": ["Iónico", "Metálico", "Covalente", "Puente de hidrógeno"],
+        "respuesta": "Covalente",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Cuál es el símbolo químico del oro?",
+        "alternativas": ["Ag", "Au", "Pb", "Fe"],
+        "respuesta": "Au",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Qué nombre recibe la tabla que organiza los elementos químicos?",
+        "alternativas": ["Tabla atómica", "Tabla de composición", "Tabla periódica", "Tabla de valencias"],
+        "respuesta": "Tabla periódica",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Qué pH indica una solución neutra?",
+        "alternativas": ["0", "7", "14", "5"],
+        "respuesta": "7",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Cómo se llama el proceso mediante el cual un líquido se convierte en gas?",
+        "alternativas": ["Sublimación", "Evaporación", "Condensación", "Fusión"],
+        "respuesta": "Evaporación",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Cuál es la unidad de medida de la cantidad de sustancia en el SI?",
+        "alternativas": ["Gramo", "Mol", "Litro", "Átomo"],
+        "respuesta": "Mol",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Cuál es el gas noble más ligero?",
+        "alternativas": ["Neón", "Argón", "Helio", "Radón"],
+        "respuesta": "Helio",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué tipo de reacción química libera energía en forma de calor?",
+        "alternativas": ["Endotérmica", "Exotérmica", "Redox", "Ácido-base"],
+        "respuesta": "Exotérmica",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué compuesto químico es conocido como la cal viva?",
+        "alternativas": ["Óxido de calcio", "Dióxido de carbono", "Ácido clorhídrico", "Hidróxido de sodio"],
+        "respuesta": "Óxido de calcio",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué gas se produce en la fotosíntesis?",
+        "alternativas": ["Dióxido de carbono", "Nitrógeno", "Oxígeno", "Metano"],
+        "respuesta": "Oxígeno",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué científico creó la tabla periódica moderna?",
+        "alternativas": ["Isaac Newton", "Dmitri Mendeléyev", "Marie Curie", "Antoine Lavoisier"],
+        "respuesta": "Dmitri Mendeléyev",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cómo se llama la reacción química en la que una sustancia se descompone por efecto del calor?",
+        "alternativas": ["Hidratación", "Oxidación", "Pirólisis", "Reducción"],
+        "respuesta": "Pirólisis",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué elemento tiene la mayor electronegatividad?",
+        "alternativas": ["Oxígeno", "Cloro", "Flúor", "Nitrógeno"],
+        "respuesta": "Flúor",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué tipo de enlace se forma entre un metal y un no metal?",
+        "alternativas": ["Covalente", "Iónico", "Metálico", "Puente de hidrógeno"],
+        "respuesta": "Iónico",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuál es el número de Avogadro?",
+        "alternativas": ["6.02 × 10^23", "3.14", "9.81", "1.67 × 10^-27"],
+        "respuesta": "6.02 × 10^23",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cómo se llama el proceso de descomposición de una sustancia por medio de una corriente eléctrica?",
+        "alternativas": ["Sublimación", "Fotólisis", "Electrólisis", "Combustión"],
+        "respuesta": "Electrólisis",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuál es el pH de una solución ácida?",
+        "alternativas": ["Mayor a 7", "Menor a 7", "Igual a 7", "Depende de la concentración"],
+        "respuesta": "Menor a 7",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué principio establece que la materia no se crea ni se destruye, solo se transforma?",
+        "alternativas": ["Principio de Avogadro", "Ley de la conservación de la masa", "Teoría de Dalton", "Ley de Boyle"],
+        "respuesta": "Ley de la conservación de la masa",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué compuesto químico tiene la fórmula H2SO4?",
+        "alternativas": ["Ácido nítrico", "Ácido sulfúrico", "Ácido clorhídrico", "Ácido acético"],
+        "respuesta": "Ácido sulfúrico",
+        "dificultad": "difícil"
+    }
+]

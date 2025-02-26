@@ -1,0 +1,110 @@
+[
+    {
+        "pregunta": "¿Cuál es el animal terrestre más rápido del mundo?",
+        "alternativas": ["León", "Guepardo", "Caballo", "Águila"],
+        "respuesta": "Guepardo",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Qué mamífero es conocido por ser capaz de volar?",
+        "alternativas": ["Murciélago", "Ardilla voladora", "Águila", "Pingüino"],
+        "respuesta": "Murciélago",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Cuál es el animal más grande del planeta?",
+        "alternativas": ["Elefante africano", "Ballena azul", "Tiburón blanco", "Jirafa"],
+        "respuesta": "Ballena azul",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Cuántas patas tienen los arácnidos?",
+        "alternativas": ["6", "8", "10", "12"],
+        "respuesta": "8",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Qué tipo de animal es un delfín?",
+        "alternativas": ["Pez", "Anfibio", "Mamífero", "Reptil"],
+        "respuesta": "Mamífero",
+        "dificultad": "fácil"
+    },
+    { 
+        "pregunta": "¿Cuál es el ave con mayor envergadura de alas?",
+        "alternativas": ["Cóndor andino", "Águila calva", "Albatros viajero", "Buitre negro"],
+        "respuesta": "Albatros viajero",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué animal puede regenerar partes de su cuerpo, como su cola?",
+        "alternativas": ["Tiburón", "Estrella de mar", "Tortuga", "Serpiente"],
+        "respuesta": "Estrella de mar",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Cómo se llama el grupo de leones?",
+        "alternativas": ["Manada", "Jauría", "Colonia", "Cardumen"],
+        "respuesta": "Manada",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué animal es conocido por su capacidad de camuflaje?",
+        "alternativas": ["Pez payaso", "Camaleón", "Águila", "Elefante"],
+        "respuesta": "Camaleón",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué animal tiene el veneno más potente del mundo?",
+        "alternativas": ["Serpiente de Taipán", "Pulpo de anillos azules", "Escorpión de muerte", "Rana dorada venenosa"],
+        "respuesta": "Rana dorada venenosa",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Cómo se llaman los animales que solo comen plantas?",
+        "alternativas": ["Carnívoros", "Omnívoros", "Herbívoros", "Insectívoros"],
+        "respuesta": "Herbívoros",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuál es el único mamífero que pone huevos?",
+        "alternativas": ["Ornitorrinco", "Perezoso", "Nutria", "Armadillo"],
+        "respuesta": "Ornitorrinco",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué animal puede dormir hasta tres años seguidos?",
+        "alternativas": ["Koala", "Caracol", "Oso", "Tortuga"],
+        "respuesta": "Caracol",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué especie de tiburón puede vivir en agua dulce?",
+        "alternativas": ["Tiburón blanco", "Tiburón toro", "Tiburón martillo", "Tiburón ballena"],
+        "respuesta": "Tiburón toro",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuál es el único mamífero marino que usa herramientas?",
+        "alternativas": ["Delfín", "Morsa", "Nutria marina", "Ballena azul"],
+        "respuesta": "Nutria marina",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué animal tiene el corazón más grande en proporción a su cuerpo?",
+        "alternativas": ["Jirafa", "Colibrí", "Elefante", "Ballena azul"],
+        "respuesta": "Colibrí",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué animal es conocido por ser el más longevo del planeta?",
+        "alternativas": ["Tortuga de Galápagos", "Medusa Turritopsis dohrnii", "Elefante africano", "Loro gris africano"],
+        "respuesta": "Medusa Turritopsis dohrnii",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuál es el pez más grande del océano?",
+        "alternativas": ["Tiburón blanco", "Tiburón ballena", "Pez espada", "Manta raya"],
+        "respuesta": "Tiburón ballena",
+        "dificultad": "difícil"
+    }
+]

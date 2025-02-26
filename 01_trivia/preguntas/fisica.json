@@ -1,0 +1,122 @@
+[
+    {
+        "pregunta": "¿Quién formuló la ley de la gravitación universal?",
+        "alternativas": ["Albert Einstein", "Galileo Galilei", "Isaac Newton", "Niels Bohr"],
+        "respuesta": "Isaac Newton",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Cuál es la unidad de medida de la fuerza en el Sistema Internacional?",
+        "alternativas": ["Joule", "Newton", "Pascal", "Watt"],
+        "respuesta": "Newton",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Qué tipo de energía tiene un objeto en movimiento?",
+        "alternativas": ["Energía potencial", "Energía cinética", "Energía térmica", "Energía química"],
+        "respuesta": "Energía cinética",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Cuál es la velocidad de la luz en el vacío?",
+        "alternativas": ["3.0 × 10^8 m/s", "1.5 × 10^8 m/s", "3.0 × 10^6 m/s", "9.8 m/s^2"],
+        "respuesta": "3.0 × 10^8 m/s",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Qué fenómeno explica el cambio de dirección de una onda al pasar de un medio a otro?",
+        "alternativas": ["Reflexión", "Difracción", "Refracción", "Interferencia"],
+        "respuesta": "Refracción",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Cuál es la ecuación de la segunda ley de Newton?",
+        "alternativas": ["F = ma", "E = mc^2", "P = mv", "V = IR"],
+        "respuesta": "F = ma",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué principio establece que la energía no se crea ni se destruye, solo se transforma?",
+        "alternativas": ["Principio de Pascal", "Ley de conservación de la energía", "Teoría de la relatividad", "Ley de Coulomb"],
+        "respuesta": "Ley de conservación de la energía",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué científico formuló la teoría de la relatividad?",
+        "alternativas": ["Nikola Tesla", "Albert Einstein", "Isaac Newton", "James Clerk Maxwell"],
+        "respuesta": "Albert Einstein",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Cuál es la unidad de medida de la presión en el SI?",
+        "alternativas": ["Newton", "Watt", "Pascal", "Joule"],
+        "respuesta": "Pascal",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Cómo se llama el fenómeno en el que una onda cambia su dirección al encontrarse con un obstáculo?",
+        "alternativas": ["Difracción", "Reflexión", "Refracción", "Resonancia"],
+        "respuesta": "Difracción",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué ley explica por qué los barcos flotan en el agua?",
+        "alternativas": ["Ley de la inercia", "Principio de Arquímedes", "Ley de Boyle", "Principio de Bernoulli"],
+        "respuesta": "Principio de Arquímedes",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué partícula subatómica tiene carga negativa?",
+        "alternativas": ["Protón", "Neutrón", "Electrón", "Quark"],
+        "respuesta": "Electrón",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuál es la ecuación de la energía de Einstein?",
+        "alternativas": ["E = mc^2", "V = IR", "F = ma", "P = mv"],
+        "respuesta": "E = mc^2",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cómo se llama el campo de la física que estudia el comportamiento de partículas a nivel subatómico?",
+        "alternativas": ["Termodinámica", "Mecánica cuántica", "Relatividad", "Electromagnetismo"],
+        "respuesta": "Mecánica cuántica",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué magnitud física se mide en faradios?",
+        "alternativas": ["Resistencia", "Inductancia", "Capacitancia", "Frecuencia"],
+        "respuesta": "Capacitancia",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué nombre recibe la fuerza que mantiene unidos los protones en el núcleo atómico?",
+        "alternativas": ["Fuerza electromagnética", "Fuerza gravitacional", "Fuerza nuclear fuerte", "Fuerza de Lorentz"],
+        "respuesta": "Fuerza nuclear fuerte",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cómo se llama la ley que describe la relación entre el voltaje, la corriente y la resistencia en un circuito eléctrico?",
+        "alternativas": ["Ley de Faraday", "Ley de Ohm", "Ley de Ampère", "Ley de Gauss"],
+        "respuesta": "Ley de Ohm",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué fenómeno explica el comportamiento ondulatorio de los electrones?",
+        "alternativas": ["Efecto fotoeléctrico", "Dualidad onda-partícula", "Interferencia", "Resonancia"],
+        "respuesta": "Dualidad onda-partícula",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del científico que desarrolló las ecuaciones del electromagnetismo?",
+        "alternativas": ["Isaac Newton", "Albert Einstein", "James Clerk Maxwell", "Michael Faraday"],
+        "respuesta": "James Clerk Maxwell",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuál es la constante universal de gravitación?",
+        "alternativas": ["9.8 m/s^2", "6.67 × 10^-11 N·m²/kg²", "3.0 × 10^8 m/s", "1.6 × 10^-19 C"],
+        "respuesta": "6.67 × 10^-11 N·m²/kg²",
+        "dificultad": "difícil"
+    }
+]

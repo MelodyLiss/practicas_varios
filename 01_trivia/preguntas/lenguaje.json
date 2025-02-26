@@ -1,0 +1,122 @@
+[
+    {
+        "pregunta": "¿Cuál es el género literario que narra hechos reales o ficticios en prosa?",
+        "alternativas": ["Poesía", "Narrativa", "Ensayo", "Drama"],
+        "respuesta": "Narrativa",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Quién escribió 'Don Quijote de la Mancha'?",
+        "alternativas": ["Miguel de Cervantes", "Gabriel García Márquez", "Lope de Vega", "Pablo Neruda"],
+        "respuesta": "Miguel de Cervantes",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Qué tipo de palabra es 'rápidamente'?",
+        "alternativas": ["Verbo", "Sustantivo", "Adverbio", "Adjetivo"],
+        "respuesta": "Adverbio",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Cuál es el antónimo de 'feliz'?",
+        "alternativas": ["Contento", "Triste", "Alegre", "Entusiasta"],
+        "respuesta": "Triste",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Cómo se llama la parte de la oración que indica la acción?",
+        "alternativas": ["Sujeto", "Predicado", "Verbo", "Adjetivo"],
+        "respuesta": "Verbo",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Cuál es el recurso literario que consiste en la repetición de un sonido?",
+        "alternativas": ["Metáfora", "Aliteración", "Hipérbole", "Paradoja"],
+        "respuesta": "Aliteración",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué autor escribió 'Cien años de soledad'?",
+        "alternativas": ["Julio Cortázar", "Gabriel García Márquez", "Jorge Luis Borges", "Mario Vargas Llosa"],
+        "respuesta": "Gabriel García Márquez",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué figura literaria consiste en exagerar una idea?",
+        "alternativas": ["Metáfora", "Hipérbole", "Paradoja", "Símil"],
+        "respuesta": "Hipérbole",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué es un soneto?",
+        "alternativas": ["Un poema de 14 versos", "Un poema sin rima", "Una novela corta", "Un cuento largo"],
+        "respuesta": "Un poema de 14 versos",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Cuál es la obra más importante de William Shakespeare?",
+        "alternativas": ["La Odisea", "Don Quijote", "Hamlet", "Crimen y castigo"],
+        "respuesta": "Hamlet",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué movimiento literario se caracteriza por su subjetividad y exaltación de los sentimientos?",
+        "alternativas": ["Realismo", "Romanticismo", "Naturalismo", "Modernismo"],
+        "respuesta": "Romanticismo",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué autor es conocido por sus cuentos de terror como 'El corazón delator'?",
+        "alternativas": ["H.P. Lovecraft", "Edgar Allan Poe", "Stephen King", "Bram Stoker"],
+        "respuesta": "Edgar Allan Poe",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué poeta chileno ganó el Premio Nobel de Literatura en 1971?",
+        "alternativas": ["Pablo Neruda", "Gabriela Mistral", "Vicente Huidobro", "Nicanor Parra"],
+        "respuesta": "Pablo Neruda",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué tipo de verso no tiene rima ni métrica fija?",
+        "alternativas": ["Endecasílabo", "Verso libre", "Verso alejandrino", "Verso octosílabo"],
+        "respuesta": "Verso libre",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Quién escribió 'La Divina Comedia'?",
+        "alternativas": ["Homero", "Dante Alighieri", "Virgilio", "Cervantes"],
+        "respuesta": "Dante Alighieri",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué nombre recibe la repetición de una misma palabra al comienzo de varios versos?",
+        "alternativas": ["Metonimia", "Anáfora", "Sinécdoque", "Eufemismo"],
+        "respuesta": "Anáfora",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Quién es el autor de 'Rayuela'?",
+        "alternativas": ["Gabriel García Márquez", "Julio Cortázar", "Mario Vargas Llosa", "Jorge Luis Borges"],
+        "respuesta": "Julio Cortázar",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué corriente literaria busca representar la realidad de forma objetiva?",
+        "alternativas": ["Modernismo", "Romanticismo", "Realismo", "Barroco"],
+        "respuesta": "Realismo",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué recurso literario consiste en comparar dos elementos usando 'como' o 'parece'?",
+        "alternativas": ["Metáfora", "Símil", "Hipérbole", "Personificación"],
+        "respuesta": "Símil",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuál es el verdadero nombre de Mark Twain?",
+        "alternativas": ["Samuel Clemens", "Edgar Poe", "Herman Melville", "Nathaniel Hawthorne"],
+        "respuesta": "Samuel Clemens",
+        "dificultad": "difícil"
+    }
+]

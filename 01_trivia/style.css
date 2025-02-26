@@ -1,0 +1,126 @@
+:root {
+    --color-one: #051020;
+    --color-two: #191d3d;
+    --color-three: #427aa1;
+    --color-four: #e2d9c2;
+    --color-five: #10898b;
+    --color-dark: #18171c;
+}
+
+
+/*Globales*/
+
+html {
+    background-color: var(--color-one);
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h2 {
+    color: var(--color-dark);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: var(--color-three);
+    padding: 1rem;
+    border-radius: 15px;
+    border: 2px solid var(--color-one);
+}
+
+/*Preguntas*/
+
+.pregunta__contenedor {
+
+    background-color: var(--color-two);
+    border-radius: 15px;
+    border: .5rem dotted var(--color-three);
+    text-align: center;
+    padding: 3rem;
+    margin: 3rem auto;
+    display: grid;
+    max-width: 60%;
+    margin-top: 10rem;
+}
+
+.pregunta__numero {
+    color: var(--color-four);
+    font-size: 3rem;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+.categoria_pregunta {
+
+    color: var(--color-four);
+    font-size: 2rem;
+    margin: 5rem 0 0 0;
+
+}
+
+button {
+    background-color: var(--color-five);
+    border: 1px solid var(--color-dark);
+    padding: .5rem;
+    color: var(--color-four);
+    font-size: 2.5rem;
+    font-weight: bold;
+    transition: padding 0.2s;
+}
+
+button:hover {
+    background-color: var(--color-three);
+    border: 1px solid var(--color-dark);
+    padding: .8rem;
+    color: var(--color-dark);
+    font-size: 2.8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*media queris*/
+
+@media (min-width:768px) {
+
+    .pregunta__contenedor {
+        width: auto;
+    }
+
+
+}
+
+.contenedor__alternativas{
+    display: flex;
+    flex-direction: column;
+}
+
+.mensaje {
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+}
+.correcto {
+    background-color: green;
+}
+.incorrecto {
+    background-color: red;
+}
+
+.puntaje{
+    color:var(--color-four);
+    font-size: 2rem;
+    background-color: var(--color-three);
+}

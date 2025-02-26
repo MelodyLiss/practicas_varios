@@ -1,0 +1,122 @@
+[
+    {
+        "pregunta": "¿Quién pintó la Mona Lisa?",
+        "alternativas": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+        "respuesta": "Leonardo da Vinci",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Cuál de estos es un movimiento artístico?",
+        "alternativas": ["Realismo", "Surrealismo", "Impresionismo", "Todas las anteriores"],
+        "respuesta": "Todas las anteriores",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Qué famoso artista cortó parte de su propia oreja?",
+        "alternativas": ["Pablo Picasso", "Salvador Dalí", "Vincent van Gogh", "Jackson Pollock"],
+        "respuesta": "Vincent van Gogh",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿En qué país nació Pablo Picasso?",
+        "alternativas": ["Italia", "Francia", "España", "Países Bajos"],
+        "respuesta": "España",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Qué tipo de pintura es La Noche Estrellada de Van Gogh?",
+        "alternativas": ["Realismo", "Cubismo", "Impresionismo", "Postimpresionismo"],
+        "respuesta": "Postimpresionismo",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Quién es conocido por sus pinturas de relojes derretidos?",
+        "alternativas": ["René Magritte", "Joan Miró", "Salvador Dalí", "Edvard Munch"],
+        "respuesta": "Salvador Dalí",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del famoso mural de Leonardo da Vinci que representa la última cena de Jesús?",
+        "alternativas": ["La Anunciación", "La Última Cena", "El Juicio Final", "La Creación de Adán"],
+        "respuesta": "La Última Cena",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué artista es famoso por su serie de pinturas de girasoles?",
+        "alternativas": ["Claude Monet", "Vincent van Gogh", "Georgia O'Keeffe", "Paul Cézanne"],
+        "respuesta": "Vincent van Gogh",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué movimiento artístico se caracteriza por el uso de formas geométricas y la fragmentación de objetos?",
+        "alternativas": ["Cubismo", "Expresionismo", "Surrealismo", "Dadaísmo"],
+        "respuesta": "Cubismo",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Quién pintó 'El Grito'?",
+        "alternativas": ["Edvard Munch", "Francisco de Goya", "Claude Monet", "Salvador Dalí"],
+        "respuesta": "Edvard Munch",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué artista español es famoso por su obra 'Guernica'?",
+        "alternativas": ["Joan Miró", "Francisco de Goya", "Pablo Picasso", "Diego Velázquez"],
+        "respuesta": "Pablo Picasso",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Quién diseñó la cúpula de la Basílica de San Pedro en el Vaticano?",
+        "alternativas": ["Filippo Brunelleschi", "Gian Lorenzo Bernini", "Michelangelo Buonarroti", "Leon Battista Alberti"],
+        "respuesta": "Michelangelo Buonarroti",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿En qué museo se encuentra la escultura del David de Miguel Ángel?",
+        "alternativas": ["Museo del Prado", "Museo del Louvre", "Galería Uffizi", "Galería de la Academia de Florencia"],
+        "respuesta": "Galería de la Academia de Florencia",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Quién fue el arquitecto del Palacio de Versalles?",
+        "alternativas": ["Jules Hardouin-Mansart", "André Le Nôtre", "François Mansart", "Louis Le Vau"],
+        "respuesta": "Louis Le Vau",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué pintor barroco es conocido por sus dramáticos contrastes de luz y sombra?",
+        "alternativas": ["Rembrandt", "Caravaggio", "Diego Velázquez", "Rubens"],
+        "respuesta": "Caravaggio",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué movimiento artístico surgió como respuesta a la Revolución Industrial?",
+        "alternativas": ["Romanticismo", "Realismo", "Impresionismo", "Dadaísmo"],
+        "respuesta": "Realismo",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Quién pintó 'Las Meninas'?",
+        "alternativas": ["Francisco de Goya", "Diego Velázquez", "Bartolomé Esteban Murillo", "El Greco"],
+        "respuesta": "Diego Velázquez",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué movimiento artístico utilizó por primera vez el término 'happening'?",
+        "alternativas": ["Surrealismo", "Dadaísmo", "Arte Conceptual", "Arte Pop"],
+        "respuesta": "Arte Conceptual",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué famoso artista era conocido como 'El Bosco'?",
+        "alternativas": ["Hieronymus Bosch", "Pieter Brueghel el Viejo", "Hans Holbein", "Albrecht Dürer"],
+        "respuesta": "Hieronymus Bosch",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué pintor español es conocido por sus pinturas negras?",
+        "alternativas": ["Diego Velázquez", "Francisco de Goya", "El Greco", "Salvador Dalí"],
+        "respuesta": "Francisco de Goya",
+        "dificultad": "difícil"
+    }
+]

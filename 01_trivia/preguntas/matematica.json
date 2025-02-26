@@ -1,0 +1,122 @@
+[
+    {
+        "pregunta": "¿Cuál es el resultado de 7 + 8?",
+        "alternativas": ["13", "14", "15", "16"],
+        "respuesta": "15",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Cuánto es 9 × 6?",
+        "alternativas": ["42", "54", "48", "56"],
+        "respuesta": "54",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Cuál es el valor de la raíz cuadrada de 49?",
+        "alternativas": ["6", "7", "8", "9"],
+        "respuesta": "7",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Cuánto es 25 ÷ 5?",
+        "alternativas": ["4", "5", "6", "7"],
+        "respuesta": "5",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Cuál es el resultado de 12²?",
+        "alternativas": ["124", "144", "164", "1444"],
+        "respuesta": "144",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "Si un triángulo tiene ángulos de 50° y 60°, ¿cuánto mide el tercer ángulo?",
+        "alternativas": ["70°", "80°", "90°", "60°"],
+        "respuesta": "70°",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Cuál es el área de un cuadrado de lado 5 cm?",
+        "alternativas": ["10 cm²", "20 cm²", "25 cm²", "30 cm²"],
+        "respuesta": "25 cm²",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "Si x + 3 = 10, ¿cuál es el valor de x?",
+        "alternativas": ["5", "6", "7", "8"],
+        "respuesta": "7",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Cuál es la fórmula del teorema de Pitágoras?",
+        "alternativas": ["a² + b² = c²", "a + b = c", "a² - b² = c²", "a × b = c"],
+        "respuesta": "a² + b² = c²",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Cuánto es 2^5?",
+        "alternativas": ["16", "32", "64", "128"],
+        "respuesta": "32",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Cuál es la derivada de x²?",
+        "alternativas": ["2x", "x", "x²", "x³"],
+        "respuesta": "2x",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "Si una función cuadrática tiene la forma ax² + bx + c = 0, ¿cómo se encuentra el valor de x?",
+        "alternativas": ["Usando la fórmula cuadrática", "Usando Pitágoras", "Sumando los coeficientes", "Multiplicando los coeficientes"],
+        "respuesta": "Usando la fórmula cuadrática",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuál es la integral de 2x dx?",
+        "alternativas": ["x² + C", "2x + C", "x + C", "x³ + C"],
+        "respuesta": "x² + C",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuál es la fórmula del área de un círculo?",
+        "alternativas": ["πr²", "2πr", "πd", "πr³"],
+        "respuesta": "πr²",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuánto es log₂ 8?",
+        "alternativas": ["2", "3", "4", "5"],
+        "respuesta": "3",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuál es el resultado de 3! (3 factorial)?",
+        "alternativas": ["3", "6", "9", "12"],
+        "respuesta": "6",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuántos lados tiene un dodecágono?",
+        "alternativas": ["8", "10", "12", "14"],
+        "respuesta": "12",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "Si una ecuación lineal es 2x - 3 = 5, ¿cuál es el valor de x?",
+        "alternativas": ["2", "3", "4", "5"],
+        "respuesta": "4",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuál es la suma de los ángulos internos de un pentágono?",
+        "alternativas": ["360°", "540°", "720°", "900°"],
+        "respuesta": "540°",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuál es el valor de π (pi) redondeado a dos decimales?",
+        "alternativas": ["3.14", "3.16", "3.18", "3.12"],
+        "respuesta": "3.14",
+        "dificultad": "difícil"
+    }
+]

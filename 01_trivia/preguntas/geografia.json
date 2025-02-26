@@ -1,0 +1,128 @@
+[
+    {
+        "pregunta": "¿Cuál es el continente más grande?",
+        "alternativas": ["Asia", "África", "América", "Europa"],
+        "respuesta": "Asia",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿En qué continente se encuentra Egipto?",
+        "alternativas": ["África", "Asia", "Europa", "Oceanía"],
+        "respuesta": "África",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Cuál es el océano más grande del mundo?",
+        "alternativas": ["Atlántico", "Índico", "Pacífico", "Ártico"],
+        "respuesta": "Pacífico",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Francia?",
+        "alternativas": ["Madrid", "Londres", "París", "Berlín"],
+        "respuesta": "París",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Qué río pasa por Egipto?",
+        "alternativas": ["Nilo", "Amazonas", "Río de la Plata", "Yangtsé"],
+        "respuesta": "Nilo",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Qué país tiene la mayor población del mundo?",
+        "alternativas": ["India", "Estados Unidos", "China", "Rusia"],
+        "respuesta": "China",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Cuál es el desierto más grande del mundo?",
+        "alternativas": ["Sahara", "Atacama", "Gobi", "Antártico"],
+        "respuesta": "Sahara",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿En qué continente se encuentra la cordillera de los Andes?",
+        "alternativas": ["América del Sur", "Asia", "África", "América del Norte"],
+        "respuesta": "América del Sur",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Qué mar está entre Europa y África?",
+        "alternativas": ["Mar Rojo", "Mar Mediterráneo", "Mar del Norte", "Mar Caspio"],
+        "respuesta": "Mar Mediterráneo",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿En qué continente se encuentra el desierto del Sahara?",
+        "alternativas": ["África", "Asia", "Australia", "América del Norte"],
+        "respuesta": "África",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la Gran Muralla China?",
+        "alternativas": ["Japón", "India", "China", "Corea del Sur"],
+        "respuesta": "China",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Cuál es la capital de Canadá?",
+        "alternativas": ["Toronto", "Montreal", "Vancouver", "Ottawa"],
+        "respuesta": "Ottawa",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Cuál es el río más largo de América del Sur?",
+        "alternativas": ["Río Amazonas", "Río Paraná", "Río Orinoco", "Río de la Plata"],
+        "respuesta": "Río Amazonas",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿En qué continente se encuentra el Monte Kilimanjaro?",
+        "alternativas": ["Asia", "África", "Europa", "América del Norte"],
+        "respuesta": "África",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué país tiene la mayor extensión territorial de América del Sur?",
+        "alternativas": ["Brasil", "Argentina", "Chile", "Colombia"],
+        "respuesta": "Brasil",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Cuál es el país más pequeño del mundo?",
+        "alternativas": ["San Marino", "Vaticano", "Mónaco", "Liechtenstein"],
+        "respuesta": "Vaticano",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Cuál es el país más grande de África?",
+        "alternativas": ["Nigeria", "Sudáfrica", "Argelia", "Egipto"],
+        "respuesta": "Argelia",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Dónde se encuentran las Islas Galápagos?",
+        "alternativas": ["México", "Ecuador", "Perú", "Colombia"],
+        "respuesta": "Ecuador",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿En qué país se encuentra la ciudad de Petra?",
+        "alternativas": ["Jordania", "Egipto", "Israel", "Arabia Saudita"],
+        "respuesta": "Jordania",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué océano está al oeste de África?",
+        "alternativas": ["Atlántico", "Índico", "Pacífico", "Ártico"],
+        "respuesta": "Atlántico",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué país tiene más islas en el mundo?",
+        "alternativas": ["Suecia", "Noruega", "Finlandia", "Indonesia"],
+        "respuesta": "Suecia",
+        "dificultad": "difícil"
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "pregunta": "¿Cuál es la unidad básica de la vida?",
+        "alternativas": ["Átomo", "Célula", "Molécula", "Tejido"],
+        "respuesta": "Célula",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Qué molécula transporta la información genética?",
+        "alternativas": ["ARN", "Proteína", "ADN", "Lípido"],
+        "respuesta": "ADN",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Qué órgano es responsable de bombear la sangre en el cuerpo humano?",
+        "alternativas": ["Pulmones", "Cerebro", "Hígado", "Corazón"],
+        "respuesta": "Corazón",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Qué tipo de sangre es el donante universal?",
+        "alternativas": ["A", "B", "O negativo", "AB positivo"],
+        "respuesta": "O negativo",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Cómo se llaman los organismos que producen su propio alimento?",
+        "alternativas": ["Heterótrofos", "Autótrofos", "Omnívoros", "Carnívoros"],
+        "respuesta": "Autótrofos",
+        "dificultad": "fácil"
+    },
+    {
+        "pregunta": "¿Qué estructura celular es responsable de la producción de energía?",
+        "alternativas": ["Ribosoma", "Mitocondria", "Cloroplasto", "Núcleo"],
+        "respuesta": "Mitocondria",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Cuál es el proceso por el cual las plantas producen oxígeno?",
+        "alternativas": ["Respiración", "Fotosíntesis", "Fermentación", "Digestión"],
+        "respuesta": "Fotosíntesis",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Cuál es el sistema encargado de defender el cuerpo contra enfermedades?",
+        "alternativas": ["Sistema digestivo", "Sistema inmunológico", "Sistema circulatorio", "Sistema nervioso"],
+        "respuesta": "Sistema inmunológico",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué tipo de célula carece de núcleo?",
+        "alternativas": ["Célula animal", "Célula vegetal", "Célula procariota", "Célula eucariota"],
+        "respuesta": "Célula procariota",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Cómo se llama la proteína que transporta oxígeno en la sangre?",
+        "alternativas": ["Colágeno", "Hemoglobina", "Insulina", "Queratina"],
+        "respuesta": "Hemoglobina",
+        "dificultad": "intermedio"
+    },
+    {
+        "pregunta": "¿Qué glándula es conocida como la 'maestra' del sistema endocrino?",
+        "alternativas": ["Tiroides", "Páncreas", "Hipófisis", "Glándulas suprarrenales"],
+        "respuesta": "Hipófisis",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué tipo de mutación genética no afecta la secuencia de aminoácidos?",
+        "alternativas": ["Silenciosa", "Deleción", "Inserción", "Sustitución no sinónima"],
+        "respuesta": "Silenciosa",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cómo se llama el proceso por el cual una célula se divide en dos células hijas?",
+        "alternativas": ["Meiosis", "Mitosis", "Fagocitosis", "Endocitosis"],
+        "respuesta": "Mitosis",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuál es la molécula principal en la membrana celular?",
+        "alternativas": ["Proteína", "Colesterol", "Fosfolípidos", "Glucosa"],
+        "respuesta": "Fosfolípidos",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cómo se llama la ciencia que estudia los microorganismos?",
+        "alternativas": ["Botánica", "Ecología", "Microbiología", "Genética"],
+        "respuesta": "Microbiología",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuál es el pigmento responsable del color verde de las plantas?",
+        "alternativas": ["Caroteno", "Clorofila", "Antocianina", "Xantofila"],
+        "respuesta": "Clorofila",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cómo se llama el proceso por el cual los organismos mantienen un equilibrio interno estable?",
+        "alternativas": ["Metabolismo", "Homeostasis", "Fotosíntesis", "Fermentación"],
+        "respuesta": "Homeostasis",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuál es el nombre de la teoría que explica el origen de las especies por selección natural?",
+        "alternativas": ["Teoría celular", "Teoría de la evolución", "Teoría del Big Bang", "Teoría del equilibrio puntuado"],
+        "respuesta": "Teoría de la evolución",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Cuál es el tipo de ARN que transporta la información genética a los ribosomas?",
+        "alternativas": ["ARN de transferencia", "ARN ribosomal", "ARN mensajero", "ARN polimerasa"],
+        "respuesta": "ARN mensajero",
+        "dificultad": "difícil"
+    },
+    {
+        "pregunta": "¿Qué estructura del núcleo celular contiene el material genético?",
+        "alternativas": ["Nucléolo", "Cromatina", "Ribosoma", "Lisosoma"],
+        "respuesta": "Cromatina",
+        "dificultad": "difícil"
+    }
+]
