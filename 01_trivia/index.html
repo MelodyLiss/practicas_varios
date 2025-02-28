@@ -11,7 +11,7 @@
 <body>
 
     <header>
-        <h1>Trivia</h1>
+        <h1>Trivia de conocimiento general</h1>
     </header>
 
     <main>
@@ -28,8 +28,24 @@
             </div>
 
             <p class="categoria_pregunta"> »»———— ★ Categoría : <span id="categoria">X</span>★ ————««</p>
-            <p id="mensaje" class="mensaje"></p>
+            <p id="mensajeCorroborar"></p>
 
+        </div>
+
+        <div class="pantalla_final oculto">
+
+            <h2>Juego terminado</h2>
+    
+            <img src="./img/img_f.jpeg" alt="">
+
+            <h3>Resultados</h3>
+            <div id="resultado">
+                <div id="rCorrectas"></div>
+                <div id="rIncorrectas"></div>
+            </div>
+            <p id="mensaje">Tuviste <span id="nCorrectas"></span> acierto sobre <span id="nTotal"></span></p>
+    
+            <button id="btnReinicio">Volver a jugar</button>
         </div>
     </main>
 

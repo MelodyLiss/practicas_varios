@@ -13,12 +13,13 @@ const nPreguntaTxt = document.querySelector('#pregunta__digito');
 const preguntaTxt = document.querySelector('.pregunta__titulo');
 const alternativasBnt = document.querySelectorAll('.alternativa');
 const categoriaTxt = document.querySelector('#categoria');
-const mensajeTxt = document.querySelector('#mensaje');
+const mensajeTxt = document.querySelector('#mensajeCorroborar');
 const contenedorAlternativas = document.querySelector('.contenedor__alternativas');
+const rCorrectasTxt = document.querySelector('#rCorrectas');
+const rIncorrectasTxt = document.querySelector('#rIncorrectas');
+const btnReinicio = document.querySelector('#btnReinicio');
 
 //Funciones 
-
-
 const cargarPreguntas = async () => {
     const categorias = [
         'matematica',
@@ -67,43 +68,75 @@ const seleccionarRespuesta = (e) => {
         boton.disabled = true;
     });
 
-    respuestaSeleccionada = e.target.textContent;
+    let botonSeleccionado = e.target; // Captura el botón clickeado
+    respuestaSeleccionada = botonSeleccionado.textContent;
 
     if (respuestaSeleccionada === preguntaActual.respuesta) {
         puntaje++;
-        mensajeTxt.textContent = "¡Correcto!";
-        mensajeTxt.classList.add("correcto");
-        mensajeTxt.classList.remove("incorrecto");
+
+        botonSeleccionado.classList.add("correcto"); // Poner fondo verde
     } else {
-        mensajeTxt.textContent = "Incorrecto";
-        mensajeTxt.classList.add("incorrecto");
-        mensajeTxt.classList.remove("correcto");
+        botonSeleccionado.classList.add("incorrecto"); // Poner fondo rojo
+
+        // También marcar la respuesta correcta en verde
+        alternativasBnt.forEach((boton) => {
+            if (boton.textContent === preguntaActual.respuesta) {
+                boton.classList.add("correcto");
+            }
+        });
+
+
     }
 
     setTimeout(() => {
         mensajeTxt.textContent = "";
         mensajeTxt.classList.remove("correcto", "incorrecto");
+
+        // Eliminar los estilos de color de los botones
+        alternativasBnt.forEach((boton) => {
+            boton.classList.remove("correcto", "incorrecto");
+            boton.disabled = false;
+        });
+
         contador++;
 
         if (contador < limitePreguntas) {
             mostrarPregunta();
         } else {
-            preguntaTxt.textContent = "¡Juego terminado!";
-            contenedorAlternativas.innerHTML = `<img src="./img/cat05.png" alt="imagen final"> <p class="puntaje">"Has acertado ${puntaje} de un total de ${limitePreguntas}"</p>`;
-            
+            resultados();
+
             alternativasBnt.forEach((boton) => {
                 boton.textContent = "";
                 boton.removeEventListener("click", seleccionarRespuesta);
             });
         }
-
-        alternativasBnt.forEach((boton) => {
-            boton.disabled = false;
-        });
-    }, 1000);
+    }, 1000); // Retraso de 1 segundo para mostrar los colores antes de cambiar de pregunta
 };
 
+const resultados = () => {
+
+    document.querySelector('.pantalla_final').classList.remove('oculto');
+    document.querySelector('.pregunta__contenedor').classList.add('oculto');
+
+    let  rIncorrectas = limitePreguntas - puntaje //valor2
+    let porcentajeCorrecto = Math.round((puntaje/limitePreguntas)*100);
+    let porcentajeIncorrecto = Math.round((rIncorrectas/limitePreguntas)*100);
+
+    rCorrectasTxt.innerHTML =`<p>${porcentajeCorrecto} %</p>`
+    rCorrectasTxt.style.width= `${porcentajeCorrecto}%`
+    rIncorrectasTxt.innerHTML =`<p>${porcentajeIncorrecto} %</p>`
+    rIncorrectasTxt.style.width= `${porcentajeIncorrecto}%`
+
+    document.querySelector('#nCorrectas').innerHTML = puntaje
+    document.querySelector('#nTotal').innerHTML = limitePreguntas
+
+};
+
+
 const reiniciarJuego = async () => {
+
+    document.querySelector('.pantalla_final').classList.add('oculto');
+    document.querySelector('.pregunta__contenedor').classList.remove('oculto');
     
     puntaje = 0;
     contador = 0;
@@ -121,5 +154,7 @@ const reiniciarJuego = async () => {
 alternativasBnt.forEach((boton) => {
     boton.addEventListener("click", seleccionarRespuesta);
 });
+
+btnReinicio.addEventListener("click",reiniciarJuego)
 
 cargarPreguntas();

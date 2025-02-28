@@ -1,20 +1,35 @@
 :root {
     --color-one: #051020;
-    --color-two: #191d3d;
+    --color-two: #1d1d1d;
     --color-three: #427aa1;
     --color-four: #e2d9c2;
     --color-five: #10898b;
     --color-dark: #18171c;
 }
 
-
 /*Globales*/
 
 html {
-    background-color: var(--color-one);
+    background-color: #abddf4;
+opacity: 1;
+background-image:  linear-gradient(#a019b0 1.1px, transparent 1.1px), linear-gradient(to right, #a019b0 1.1px, #abddf4 1.1px);
+background-size: 22px 22px;
     box-sizing: border-box;
     font-size: 62.5%;
+}
 
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer{
+    margin-top: 3rem;
+    background-color: #D95B43;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 *,
@@ -34,16 +49,48 @@ h2 {
     border: 2px solid var(--color-one);
 }
 
+
+/* HTML: <div class="ribbon">Your text content</div> */
+header {
+    font-size: 2rem;
+    width: 60%;
+    font-weight: bold;
+    color: #fff;
+    margin: auto;
+
+}
+
+h1 {
+    --s: 1.8em;
+    /* the ribbon size */
+    --d: .8em;
+    /* the depth */
+    --c: .8em;
+    /* the cutout part */
+
+    padding: var(--d) calc(var(--s) + .5em) 0;
+    line-height: 1.8;
+    background:
+        conic-gradient(from 45deg at left var(--s) top var(--d),
+            #0008 12.5%, #0000 0 37.5%, #0004 0) 0 /50% 100% no-repeat,
+        conic-gradient(from -45deg at right var(--s) top var(--d),
+            #0004 62.5%, #0000 0 87.5%, #0008 0) 100%/50% 100% no-repeat;
+    clip-path: polygon(0 0, calc(var(--s) + var(--d)) 0, calc(var(--s) + var(--d)) var(--d), calc(100% - var(--s) - var(--d)) var(--d), calc(100% - var(--s) - var(--d)) 0, 100% 0, calc(100% - var(--c)) calc(50% - var(--d)/2), 100% calc(100% - var(--d)), calc(100% - var(--s)) calc(100% - var(--d)), calc(100% - var(--s)) 100%, var(--s) 100%, var(--s) calc(100% - var(--d)), 0 calc(100% - var(--d)), var(--c) calc(50% - var(--d)/2));
+    background-color: #D95B43;
+    
+    text-align: center;
+
+}
+
 /*Preguntas*/
 
 .pregunta__contenedor {
-
     background-color: var(--color-two);
     border-radius: 15px;
     border: .5rem dotted var(--color-three);
     text-align: center;
-    padding: 3rem;
-    margin: 3rem auto;
+    padding: 1rem;
+    margin: 0rem auto;
     display: grid;
     max-width: 60%;
     margin-top: 10rem;
@@ -55,15 +102,12 @@ h2 {
     margin: 0;
     text-transform: uppercase;
     font-weight: 700;
-
 }
 
 .categoria_pregunta {
-
     color: var(--color-four);
     font-size: 2rem;
     margin: 5rem 0 0 0;
-
 }
 
 button {
@@ -86,41 +130,107 @@ button:hover {
     cursor: pointer;
 }
 
-/*media queris*/
+.contenedor__alternativas {
+    display: flex;
+    flex-direction: column;
+}
 
-@media (min-width:768px) {
+/* Pantalla final */
 
-    .pregunta__contenedor {
-        width: auto;
+.pantalla_final {
+    background-color: #abddf4;
+    padding: 2rem;
+    max-width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 2rem;
+    color: aliceblue;
+
+    & h2 {
+        text-transform: uppercase;
+        text-align: center;
+        color: aliceblue;
+    }
+
+    & h3 {
+        text-transform: uppercase;
+        text-align: center;
+        color: var(--color-dark);
+    }
+
+    & img {
+        border-radius: 30px;
+        margin: 2rem;
     }
 
 
 }
 
-.contenedor__alternativas{
+#resultado {
+    
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid rgb(131, 128, 128);
+
+    & p {
+        text-align: center;
+        color: aliceblue;
+    }
 }
 
-.mensaje {
-    font-size: 3.2rem;
+#rCorrectas {
+    position: absolute;
+    background: rgb(10, 101, 33);
+    background: linear-gradient(0deg, rgb(8, 122, 37) 0%, rgba(15, 226, 18, 1) 70%, rgba(217, 255, 215, 1) 98%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#rIncorrectas {
+    position: absolute;
+    background: rgb(101, 24, 10);
+    background: linear-gradient(0deg, rgba(101, 24, 10, 1) 0%, rgba(226, 36, 15, 1) 70%, rgba(255, 215, 215, 1) 98%);
+    margin: 0;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #4b5563;
     font-weight: bold;
+}
+
+#mensaje {
     text-align: center;
-    margin-top: 10px;
-    color: white;
-    background-color: transparent;
-    padding: 5px;
-    border-radius: 5px;
+    color: var(--color-dark);
 }
+
+#btnReinicio {
+    width: 40%;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+/* Clases especiales */
+
 .correcto {
-    background-color: green;
+    background-color: rgb(51, 175, 51);
+    pointer-events: none;
 }
+
 .incorrecto {
     background-color: red;
+    pointer-events: none;
 }
 
-.puntaje{
-    color:var(--color-four);
-    font-size: 2rem;
-    background-color: var(--color-three);
+.oculto {
+    display: none;
 }
