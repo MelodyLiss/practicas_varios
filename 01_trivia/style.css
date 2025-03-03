@@ -1,31 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Lilita+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
     --color-one: #051020;
-    --color-two: #1d1d1d;
-    --color-three: #427aa1;
-    --color-four: #e2d9c2;
-    --color-five: #10898b;
-    --color-dark: #18171c;
+    --color-two: #f3f3f0;
+    --color-three: #c27231;
+    --color-four: #272725;
+    --color-five: #f3ca8c;
+    --color-dark: #000000;
+
+    --primary-font: "Poppins", sans-serif
 }
 
 /*Globales*/
 
 html {
     background-color: #abddf4;
-opacity: 1;
-background-image:  linear-gradient(#a019b0 1.1px, transparent 1.1px), linear-gradient(to right, #a019b0 1.1px, #abddf4 1.1px);
-background-size: 22px 22px;
+    opacity: 1;
+    background-image:  linear-gradient(#ffffff 1.1px, transparent 1.1px), linear-gradient(to right, #ffffff 1.1px, #abddf4 1.1px);
+    background-size: 22px 22px;
     box-sizing: border-box;
     font-size: 62.5%;
+    font-family: var(--primary-font);
 }
 
 body{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto 1f auto;
     min-height: 100vh;
 }
 
 footer{
-    margin-top: 3rem;
     background-color: #D95B43;
     color: #fff;
     font-size: 1.5rem;
@@ -41,7 +45,6 @@ footer{
 h2 {
     color: var(--color-dark);
     text-transform: uppercase;
-    font-weight: bold;
     font-size: 2rem;
     background-color: var(--color-three);
     padding: 1rem;
@@ -93,7 +96,6 @@ h1 {
     margin: 0rem auto;
     display: grid;
     max-width: 60%;
-    margin-top: 10rem;
 }
 
 .pregunta__numero {
@@ -222,12 +224,13 @@ button:hover {
 /* Clases especiales */
 
 .correcto {
-    background-color: rgb(51, 175, 51);
+    background-color: rgb(26, 161, 26);
     pointer-events: none;
+    color: var(--color-two);
 }
 
 .incorrecto {
-    background-color: red;
+    background-color: rgb(168, 32, 32);
     pointer-events: none;
 }
 

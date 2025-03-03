@@ -19,6 +19,14 @@ const rCorrectasTxt = document.querySelector('#rCorrectas');
 const rIncorrectasTxt = document.querySelector('#rIncorrectas');
 const btnReinicio = document.querySelector('#btnReinicio');
 
+//Variables de sonido
+
+const sonidoCorrecto = new Audio("./sonidos/correcto.mp3");
+const sonidoIncorrecto = new Audio("./sonidos/incorrecto.mp3");
+sonidoCorrecto.volume = 0.2; 
+sonidoIncorrecto.volume = 0.2; 
+
+
 //Funciones 
 const cargarPreguntas = async () => {
     const categorias = [
@@ -32,7 +40,7 @@ const cargarPreguntas = async () => {
         'arte',
         'astronomia',
         'geografia'
-    ];    
+    ];
 
     for (const categoria of categorias) {
         const response = await fetch(`./preguntas/${categoria}.json`);
@@ -71,12 +79,15 @@ const seleccionarRespuesta = (e) => {
     let botonSeleccionado = e.target; // Captura el botón clickeado
     respuestaSeleccionada = botonSeleccionado.textContent;
 
+    
+
     if (respuestaSeleccionada === preguntaActual.respuesta) {
         puntaje++;
-
-        botonSeleccionado.classList.add("correcto"); // Poner fondo verde
+        sonidoCorrecto.play();
+        botonSeleccionado.classList.add("correcto"); 
     } else {
-        botonSeleccionado.classList.add("incorrecto"); // Poner fondo rojo
+        sonidoIncorrecto.play();
+        botonSeleccionado.classList.add("incorrecto"); 
 
         // También marcar la respuesta correcta en verde
         alternativasBnt.forEach((boton) => {
@@ -116,14 +127,14 @@ const resultados = () => {
     document.querySelector('.pantalla_final').classList.remove('oculto');
     document.querySelector('.pregunta__contenedor').classList.add('oculto');
 
-    let  rIncorrectas = limitePreguntas - puntaje //valor2
-    let porcentajeCorrecto = Math.round((puntaje/limitePreguntas)*100);
-    let porcentajeIncorrecto = Math.round((rIncorrectas/limitePreguntas)*100);
+    let rIncorrectas = limitePreguntas - puntaje //valor2
+    let porcentajeCorrecto = Math.round((puntaje / limitePreguntas) * 100);
+    let porcentajeIncorrecto = Math.round((rIncorrectas / limitePreguntas) * 100);
 
-    rCorrectasTxt.innerHTML =`<p>${porcentajeCorrecto} %</p>`
-    rCorrectasTxt.style.width= `${porcentajeCorrecto}%`
-    rIncorrectasTxt.innerHTML =`<p>${porcentajeIncorrecto} %</p>`
-    rIncorrectasTxt.style.width= `${porcentajeIncorrecto}%`
+    rCorrectasTxt.innerHTML = `<p>${porcentajeCorrecto} %</p>`
+    rCorrectasTxt.style.width = `${porcentajeCorrecto}%`
+    rIncorrectasTxt.innerHTML = `<p>${porcentajeIncorrecto} %</p>`
+    rIncorrectasTxt.style.width = `${porcentajeIncorrecto}%`
 
     document.querySelector('#nCorrectas').innerHTML = puntaje
     document.querySelector('#nTotal').innerHTML = limitePreguntas
@@ -135,10 +146,10 @@ const reiniciarJuego = async () => {
 
     document.querySelector('.pantalla_final').classList.add('oculto');
     document.querySelector('.pregunta__contenedor').classList.remove('oculto');
-    
+
     puntaje = 0;
     contador = 0;
-    preguntas = {}; 
+    preguntas = {};
 
     alternativasBnt.forEach((boton) => {
         boton.addEventListener("click", seleccionarRespuesta);
@@ -153,6 +164,6 @@ alternativasBnt.forEach((boton) => {
     boton.addEventListener("click", seleccionarRespuesta);
 });
 
-btnReinicio.addEventListener("click",reiniciarJuego)
+btnReinicio.addEventListener("click", reiniciarJuego)
 
 cargarPreguntas();
