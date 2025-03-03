@@ -84,8 +84,6 @@ const seleccionarRespuesta = (e) => {
                 boton.classList.add("correcto");
             }
         });
-
-
     }
 
     setTimeout(() => {
